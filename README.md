@@ -52,10 +52,13 @@ The files below were used to generate the input files using CountESS V 0.1.16 (h
 | 'TSC2_lib1_map.csv'            | Variant to barcode map generated using Pacybara (Weile et al., 2024) for library 1                       |
 | 'TSC2_lib2_map.csv'            | Variant to barcode map generated using Pacybara for library 2                                            |
 
-### Final Addition of GMM Classifications
+###  Addition of GMM Classifications
 
 - The "GMM_classifications" directory contains the functional classes for the variants assayed
 - Relevant columns are "functional_consequence" (one of functionally_normal, indeterminate, or functionally_abnormal), and gmm_density_normal and gmm_density_abnormal, which have the estimated densities for the two components of each variant
+
+### Simplified Score File
+- The "Simplified_scores" directory contains notebooks and score files for making simplified score files with functional consequences from the GMM for missense variants file for uploading into MaveDB.
 ## References:
 
 Matreyek, K.A., Starita, L.M., Stephany, J.J., Martin, B., Chiasson, M.A., Gray, V.E., Kircher, M., Khechaduri, A., Dines, J.N., Hause, R.J., et al. (2018). Multiplex assessment of protein variant abundance by massively parallel sequencing. Nat Genet _50_, 874–882. https://doi.org/10.1038/s41588-018-0122-z.
